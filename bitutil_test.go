@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestPopCount(t *testing.T) {
+func TestDiff(t *testing.T) {
 	a := sha256.Sum256([]byte("x"))
 	b := sha256.Sum256([]byte("y"))
 
@@ -13,7 +13,7 @@ func TestPopCount(t *testing.T) {
 		t.Errorf("Количество различающихся битов %d и %d не должно быть 0 получено %d", a, b, Diff(a, b))
 	}
 }
-func TestCount(t *testing.T) {
+func TestEqual(t *testing.T) {
 	a := sha256.Sum256([]byte("x"))
 	b := sha256.Sum256([]byte("x"))
 	if Diff(a, b) != 0 {
