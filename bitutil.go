@@ -7,7 +7,7 @@ package bitutil
 
 import "fmt"
 
-//goland:noinspection ALL
+
 func Diff(x, y [32]byte) int {
 	d := 0
 	for a := 0; a < 32; a++ {
