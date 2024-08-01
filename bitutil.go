@@ -7,7 +7,6 @@ package bitutil
 
 import "fmt"
 
-
 func Diff(x, y [32]byte) int {
 	d := 0
 	for a := 0; a < 32; a++ {
@@ -16,6 +15,8 @@ func Diff(x, y [32]byte) int {
 			//fmt.Printf("%d: x[a]: %b\t", a, x[a])
 		}
 	}
+	fmt.Printf("x: %b\n", x)
+	fmt.Printf("y: %b\n", y)
 	fmt.Printf("Количество различающихся битов: %d\n", d)
 	return d
 }
