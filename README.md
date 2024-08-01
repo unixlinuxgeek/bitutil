@@ -8,3 +8,5 @@ https://github.com/unixlinuxgeek/bitutil/blob/f871bbc8d9464a58323c3c8baa91548827
 
 Модульные тесты:
 https://github.com/unixlinuxgeek/bitutil/blob/0fbd7bce78612ae4cda4707329d85451d82316cc/bitutil_test.go#L1-L22
+
+https://github.com/unixlinuxgeek/bitutil/blob/f8219f302cfb9c41b4a090120d091c14211e0542/test_out.txt#L1-L12
