@@ -4,4 +4,4 @@
 различных в двух дайджестах SHA256 (см. PopCount в разделе 2.6.2). 
 
 Решение:
-https://github.com/unixlinuxgeek/gopl/blob/2feb736b8c5d0e4f45c5e9d0c7994b2b3d80aca1/bitutil/bitutil.go#L1-L21
+https://github.com/unixlinuxgeek/bitutil/blob/f871bbc8d9464a58323c3c8baa91548827aa0870/bitutil.go#L1-L21
